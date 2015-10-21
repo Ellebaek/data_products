@@ -1,5 +1,3 @@
-#flipCoinAndGetResultTable <- funtion(numberOfFlips) data.frame(FlipNo=seq(1,numberOfFlips), Head=rbinom(n=2, size=numberOfFlips, prob = 0.45)))
-
 library(shiny)
 shinyServer(
   function(input, output) {
